@@ -1,0 +1,105 @@
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 30px;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 200px;
+    border: 2px solid black;
+    margin: 10px;
+}
+p{
+    font-size: 20px;
+    border-bottom: 1px solid;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+.basic-plan{
+    order: 0;
+    background: rgb(247, 247, 247);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pro-plan{
+    order: 1;
+    background: #f0f8ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.premium-plan{
+    order: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+h1{
+    text-align: Center;
+    
+}
+
+h2{
+    margin-bottom: 0.5px;
+}
+
+.features{
+    list-style: none;
+    text-align: left;
+    padding-left: 10px;
+}
+li{
+    margin-bottom: 10px;
+
+}
+.available::before{
+    content: "✓";
+    color: green;
+    margin-right: 5px;
+    
+}
+
+li::before{
+    content: "✗";
+    color: red;
+    margin-right: 5px;
+}
+
+.basic-plan:hover,.pro-plan:hover{
+    transform: scale(1.05);
+}
+
+.premium-plan:hover{
+    transform: scale(1.05);
+}
+
+button{
+   margin: 15px auto;
+   background: #F1BE32;
+   border: none;
+   font-size: 15px;
+   padding: 5px 40px;
+   cursor: pointer;
+   
+}
+button:hover{
+    background: #FFA500;
+}
