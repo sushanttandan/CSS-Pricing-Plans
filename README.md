@@ -7,8 +7,8 @@ A pricing plans design created using **pure HTML and CSS**, without JavaScript.
 - Multiple pricing plan cards
 - Custom CSS styling
 - Clean and organized layout
-- Hover effects (if implemented)
-- Responsive design (if implemented)
+- Hover effects
+- Responsive design
 - No JavaScript required
 
 ## 🛠️ Technologies Used
